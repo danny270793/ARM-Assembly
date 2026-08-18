@@ -1,0 +1,9 @@
+# Object files
+*.o
+*.out
+
+# Compiled binaries under asm/* (extension-less executables from build.sh)
+asm/*/*
+!asm/*/*.s
+!asm/*/*.c
+!asm/*/build.sh
